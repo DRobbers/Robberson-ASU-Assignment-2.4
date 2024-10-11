@@ -64,6 +64,22 @@ table {
     transform: translate(-50%,0%);
     color: white;
   }
+  nav a{
+	display: block;
+	padding: 1rem;
+	text-decoration: none;
+	text-align: center;
+	background-color: var(--teal);
+	color: white;
+	font-weight: bold;
+	margin: 0.5rem auto;
+	border-radius: 0.5rem;
+	width: calc(100% - 2rem);
+	max-width: 350px;
+}
+nav ul {
+	list-style:none;
+}
 
   #main-content {
     display: flex;
