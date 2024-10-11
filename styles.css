@@ -76,8 +76,13 @@ table {
 	border-radius: 0.5rem;
 	max-width: 350px;
 }
+.sr-only {
+    font-size: 0;
+}
 #menu-toggle {
-    position: relative;
+    position: absolute;
+    top: 10px;
+    right:5px;
 }
 
 #menu-toggle input[type="checkbox"] {
@@ -85,7 +90,7 @@ table {
 }
 #menu-toggle label {
     display: block;
-    background-color: #499bd2;
+    background-color: #f6d64a;
     color: #222222;
     font-size: 1.5rem;
     text-align: center;
@@ -122,7 +127,7 @@ table {
     background-color: #55dcb5;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     nav a {
         display: none;
     }
