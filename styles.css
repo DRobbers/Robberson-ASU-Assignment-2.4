@@ -83,3 +83,7 @@ table {
     max-width: auto;
     height: auto;
   }
+
+  #plan {
+    background-color: #f6d64a;
+  }
