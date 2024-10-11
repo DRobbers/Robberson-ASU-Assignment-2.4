@@ -64,3 +64,22 @@ table {
     transform: translate(-50%,0%);
     color: white;
   }
+
+  #main-content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex: 1 1 auto;
+  }
+ 
+  .flex-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex: 1 0 350px;
+    max-width: auto;
+    height: auto;
+  }

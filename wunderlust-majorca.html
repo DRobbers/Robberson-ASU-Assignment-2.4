@@ -35,7 +35,7 @@
     <body>
         <a id="skip" href="#main-content">Skip to Main Content</a>
         <!-- styling skip links: https://webaim.org/techniques/css/invisiblecontent/ -->
-        <header>
+        <header class="flex-item">
             <a href="index.html" id="logo"><img src="images/logo.png" alt="The Wunderlust logo shows blue waves and the outline of two palm trees against an orange sun"></a>
             <h1>Wunderlust</h1>
 			<p>Let Wunderlust Travel help you plan the trip of your dreams!</p>			
@@ -57,7 +57,7 @@
         </header>
         <main id="main-content">
             <article>
-                <div id="intro">  
+                <div id="intro" class="flex-item">  
                     <h2>Majorca</h2>
                     <p>Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, rugged mountains, picturesque villages and a vibrant capital city. The island and its capital, Palma, are overflowing with character, while its beaches are famous all around the world, making it one of the most sought-after summer destinations.</p>
                     <div id="img-grid">
@@ -70,7 +70,7 @@
                         </picture>
                     </div>
                 </div>  
-                <section id="plan">
+                <section id="plan" class="flex-item">
                     <h3>Plan Your Trip</h3>
                     <div>
                         <section>
@@ -99,7 +99,7 @@
                         </section>
                     </div>   
                 </section>
-                <section id="testimonials">
+                <section id="testimonials" class="flex-item">
                     <h3>Testimonials</h3>
                     <div>
                         <section>
@@ -128,7 +128,7 @@
                         </section>
                     </div>
                 </section>
-                <section id="about">
+                <section id="about" class="flex-item">
                     <h3>About Your Destination</h3>
                     <div>
                         <section>
@@ -153,7 +153,7 @@
                         </section>
                     </div>  
                 </section>
-                <section id="contact">
+                <section id="contact" class="flex-item">
                     <h3>Contact Us <span class="form-required">*required</span></h3>
                     <form method="post" action="https://wp.zybooks.com/form-viewer.php">
                         <div id="names">
@@ -194,7 +194,7 @@
                             <label for="phone">Phone Number<span class="required">*</span></label>
                             <input type="tel" name="phone" id="phone" autocomplete="tel" placeholder="Phone Number" required>
                         </div>
-                        <div id="selects">
+                        <div id="selects" class="flex-item">
                             <!-- custom select styles from: https://moderncss.dev/custom-select-styles-with-pure-css/ -->
                             <label for="destination">Destination<span class="required">*</span></label>
                             <div class="custom-select">
