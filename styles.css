@@ -47,3 +47,20 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+#scip {
+    background-color: black;
+    color: white;
+    left: 50%;
+    position: absolute;
+    padding: 10px;
+    transform: translate(-50%, -100%);
+    transition: transform 0.3s;
+    z-index: 100;
+    font-size: 24px;
+  }
+  
+  #skip:focus{
+    transform: translate(-50%,0%);
+    color: white;
+  }
