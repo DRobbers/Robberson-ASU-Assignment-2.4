@@ -63,6 +63,11 @@ p {
 
 #intro p {
     font-weight: 100;
+    color: #4A4A4A;
+}
+
+p {
+    color: #222222;
 }
 
 ol, ul {
@@ -187,7 +192,7 @@ table {
       max-width: auto;
       height: auto;
     }
-  
+    */
     #plan {
       background-color: #f6d64a;
     }
@@ -209,4 +214,3 @@ table {
     #plan section h4 {
       margin-bottom: 10px;
     }
-  */
