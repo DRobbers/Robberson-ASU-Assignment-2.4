@@ -32,6 +32,21 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 20px;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -135,43 +150,45 @@ table {
 
 
 
-  #main-content {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    flex: 1 1 auto;
-  }
- 
-  .flex-item {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    flex: 1 0 350px;
-    max-width: auto;
-    height: auto;
-  }
-
-  #plan {
-    background-color: #f6d64a;
-  }
-
-  #plan section  {
-    background-color:#55bcd5 ;
-    border: 2px solid #ffffff;
-    margin: 15px 0;
-    padding: 20px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-
-  #plan section img {
-    max-width: 350px;
-    margin-bottom: 10px;
-  }
-
-  #plan section h4 {
-    margin-bottom: 10px;
-  }
+  /**
+    #main-content {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+      flex: 1 1 auto;
+    }
+   
+    .flex-item {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      flex: 1 0 350px;
+      max-width: auto;
+      height: auto;
+    }
+  
+    #plan {
+      background-color: #f6d64a;
+    }
+  
+    #plan section  {
+      background-color:#55bcd5 ;
+      border: 2px solid #ffffff;
+      margin: 15px 0;
+      padding: 20px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+  
+    #plan section img {
+      max-width: 350px;
+      margin-bottom: 10px;
+    }
+  
+    #plan section h4 {
+      margin-bottom: 10px;
+    }
+  */
