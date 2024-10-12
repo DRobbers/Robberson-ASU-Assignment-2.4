@@ -409,7 +409,7 @@ article {
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
 
     body {
         background: linear-gradient(to bottom, #499bd2, #ffffff);
