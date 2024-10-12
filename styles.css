@@ -198,7 +198,7 @@ table {
       justify-content: center;
       align-content: center;
       flex: 1 0 350px;
-      max-width: auto;
+      max-width: none;
       height: auto;
     }
     
