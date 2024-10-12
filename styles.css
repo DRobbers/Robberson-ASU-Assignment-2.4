@@ -31,6 +31,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    background: linear-gradient(to bottom, #499bd2, white);
+    height: 100%;
 }
 h1 {
     font-size: 50px;
@@ -402,12 +404,7 @@ footer p, footer a, footer span {
     margin-bottom: 10px;
 }
 
-body {
-    background: linear-gradient(to bottom, #499bd2, white);
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
+
 
 header {
     background: linear-gradient(to bottom, #499bd2, #ffffff);
