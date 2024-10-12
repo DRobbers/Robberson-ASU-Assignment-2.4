@@ -34,25 +34,29 @@ body {
     background: linear-gradient(to bottom, #499bd2, white);
     height: 100%;
 }
-h1 {
-    font-size: 50px;
-}
-h2 {
-    font-size: 45px;
-}
-
-h3 {
-    font-size: 40px;
-}
 
 h4 {
     font-size: 30px;
 }
 
-h1, h2, h3 {
+h1 {
+    font-size: 50px;
     margin-left: 20px;
     margin-bottom: 10px;
 }
+
+h2 {
+    font-size: 45px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
 #intro {
     margin-top: 30px;
 }
