@@ -401,3 +401,13 @@ footer p, footer a, footer span {
     font-size: inherit;
     margin-bottom: 10px;
 }
+
+body {
+    background-color: linear-gradient(to bottom, #499bd2, white 80%);
+    margin: 0;
+    padding: 0;
+}
+#majorica-section {
+    background-color: #ffffff;
+    padding-top: 20px;
+}
