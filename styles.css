@@ -493,6 +493,12 @@ article {
         grid-column: span 3;
     }
 
+    nav a {
+        display: inline-block;
+        margin: 0 10px;
+
+    }
+
 }
 
 
