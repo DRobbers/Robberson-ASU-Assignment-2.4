@@ -409,7 +409,13 @@ body {
     padding: 0;
 }
 
-section#majorca {
+header {
+    background: linear-gradient(to bottom, #499bd2, #ffffff);
+    padding: 20px;
+    height: 100px;
+}
+
+article {
     background-color: #ffffff;
     padding: 20px;
 }
