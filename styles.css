@@ -360,3 +360,21 @@ table {
     }
 }
 
+input, textarea, select {
+    border: 1 px solid #9b26b0;
+    outline-color: #9b26b0;
+}
+
+input[type="submit"], button {
+    background-color: #9b26b0;
+    color: #ffffff;
+    border: 1px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover, 
+input:focus, textarea:focus, select:focus {
+    border-color: #9826b0;
+    outline: 1px solid #9b26b0;
+}
