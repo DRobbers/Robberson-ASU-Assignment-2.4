@@ -402,18 +402,19 @@ footer p, footer a, footer span {
     margin-bottom: 10px;
 }
 
-header {
-    background-color: linear-gradient(to bottom, #499bd2, white);
-   
-    padding: 20px;
-}
 body {
-    background-color: #ffffff;
+    background: linear-gradient(to bottom, #499bd2, white);
+    height: 100%;
     margin: 0;
     padding: 0;
 }
 
-#majorica-section {
+section#majorica {
     background-color: #ffffff;
-    padding-top: 20px
+    padding: 20px;
+}
+
+section#before-majorica {
+    height: 600px;
+
 }
