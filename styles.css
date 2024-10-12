@@ -476,6 +476,11 @@ article {
         margin: 20px;
     }
 
+    #mySubmit {
+        margin-left: auto;
+        width: auto;
+    }
+
     input[type="tel"] {
         grid-column: span 3;
     }
