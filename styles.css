@@ -306,7 +306,7 @@ table {
     padding: 10px;
     background-color: #ffffff;
     border-radius: 5px;
-    box-shadow: 0px 4px 8px rgba(o, o, o, 0.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 
    }
 
@@ -351,8 +351,8 @@ table {
     font-size: 16px;
    }
 
-   input:[type="submit"]:hover {
-    background-color: #0056b3;
+   input[type="submit"]:hover {
+    background-color: #55bc35;
    }
 
 @media only screen and (max-width: 768px) {
@@ -367,7 +367,7 @@ table {
 }
 
 input, textarea, select {
-    border: 1 px solid #9b26b0;
+    border: 1px solid #9b26b0;
     outline-color: #9b26b0;
 }
 
