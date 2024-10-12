@@ -261,3 +261,7 @@ table {
    #testimonials section {
     text-align: center;
    }
+
+   #plan section img, #plan section svg {
+    width: 90vw;
+   }
