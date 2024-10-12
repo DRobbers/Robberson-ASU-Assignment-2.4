@@ -378,3 +378,12 @@ input:focus, textarea:focus, select:focus {
     border-color: #9826b0;
     outline: 1px solid #9b26b0;
 }
+
+footer {
+    font-size: 12px;
+    color: #666666;
+}
+
+footer p, footer a, footer span {
+    font-size: inherit;
+}
